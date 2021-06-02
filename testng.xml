@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/rrosario/IdeaProjects/NBA_Auto_Test/src/main/java/com/nba/test">
+        <classes>
+            <class name="com.nba.test.TestSuite">
+                <methods>
+                    <include name="setup"/>
+                    <include name="login"/>
+                    <include name="teardown"/>
+                </methods>
+            </class>
+            <class name="com.nba.test.nbaHomePageTest">
+                <methods>
+                    <include name="homePageTests"/>
+                    <include name="Test"/>
+                </methods>
+            </class>
+            <class name="com.nba.test.nbaHomePageTest2">
+                <methods>
+                    <include name="homePageTests"/>
+                    <include name="Test2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
